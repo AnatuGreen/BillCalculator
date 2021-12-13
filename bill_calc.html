@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Calculator</title>
+    <link rel="stylesheet" href="bill_calc.css">
+</head>
+<body>
+    <h1>Bill Calculator 🧮</h1>
+    <span>You arrived at: </span><p id="date"></p>
+    <label>Bill 1:</label> <br>
+    <input type="number" id="bill1" placeholder="Enter amount"><br>
+    <label>Bill 2:</label><br>
+    <input type="number" id="bill2" placeholder="Enter amount"> <br>
+    <button id="totalButton" onclick="total()" >Total and Share</button> 
+    <p id="total">You will see total here</p>
+    <p>Below are the bills per tenant</p>
+    <ul>
+       
+        <li id="Ajayi"> Ajayi </li>
+        <li id="Alabi"> Alabi </li>
+        <li id="Alex"> Alex </li>
+        <li id="Anatu"> Anatu </li>
+        <li id="Andrew"> Andrew</li>
+        <li id="Gbenga"> Gbenga</li>
+        <li id="Janet"> Janet </li>
+        <li id="Joshua">Joshua</li>
+        <li id="Lawrence">Lawrence</li>
+        <li id="Ogundairo">Ogundairo </li>
+        <li id="Taiwo">Taiwo</li>
+        
+    </ul>
+    <p>Waste Bill Per Person: N 600</p>
+    <p>Security Bill Per Person: N 100</p>
+    <p>Please remeber to pay before 16th of the month to avoid disconnection</p>
+
+<p>Want to know how the bill is calculated?</p>
+    <button id="how" onclick="how()">Click Me</button>
+    <button id="hideHowItIs">Hide this</button>
+    <p id="howitis"></p>
+    <footer><p> Created By @AnatuGreen (2021)</p></footer>
+    <script src="bill_calc.js"></script>
+</body>
+</html>
