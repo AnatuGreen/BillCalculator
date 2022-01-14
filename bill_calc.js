@@ -13,7 +13,7 @@ let Joshua = document.getElementById("Joshua") // 9
 let Lawrence = document.getElementById("Lawrence") // 7
 let Ogundairo = document.getElementById("Ogundairo") //10
 let Taiwo = document.getElementById("Taiwo") //6
-let Victor = document.getElementByID("Victor") // 5
+let Victor = document.getElementById("Victor") // 5
 
 let how = document.getElementById("how")
 let howItIs = document.getElementById("howitis")
