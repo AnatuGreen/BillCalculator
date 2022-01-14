@@ -58,6 +58,6 @@ Example: If the total bill for January is 20,500 and the total points for everyo
 })
 
 hideHowItIs.addEventListener("click", function(){
-    howItIs.textContent ="Thanks for reading. If you need more clarity or if you need a website or app, please call or whatsapp: +2347035719745 (@AnatuGreen)"
+    howItIs.textContent ="Thanks for reading. If you need more clarity or if you need a website or app, please call or whatsapp: +2347035719745 (@AnatuGreen) or chat the group"
 
 })
