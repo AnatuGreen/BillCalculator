@@ -31,3 +31,7 @@ input {
 li {
   margin-bottom: 10px;
 }
+footer p {
+  font-size: 15px;
+  text-decoration: overline;
+}
