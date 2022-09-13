@@ -25,8 +25,16 @@ function total() {
   let totalBillDisplayArea = document.getElementById("total");
   let totalBillButton = document.getElementById("totalButton");
   let totalBills = parseFloat(billInput1) + parseFloat(billInput2);
+  //Calc the current month to show the user
+ let months = ['January','February','March','April','May','June','July','August','September','October','November','December']
+ let currentDate =  new Date()
+ let currentMonth = currentDate.getMonth()
+ currentMonth = months[currentMonth]
+ let currentYear = new Date()
+ currentYear = currentYear.getFullYear()
+
   totalBillDisplayArea.textContent =
-    "This month's total bill is: " + totalBills;
+    `This bill for ${currentMonth,currentYear}, is: totalBills`;
   if (totalBills > 0) {
     amountPerPoint = totalBills / totalPoints;
   }
