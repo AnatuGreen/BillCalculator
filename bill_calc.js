@@ -34,13 +34,13 @@ function total() {
  currentYear = currentYear.getFullYear()
 
   totalBillDisplayArea.textContent =
-    `This bill for ${currentMonth, currentYear}, is: ${totalBills}`;
+    `This bill for ${currentMonth currentYear}, is: ${totalBills}`;
   if (totalBills > 0) {
     amountPerPoint = totalBills / totalPoints;
   }
 
   Ajayi.textContent =
-    "Ajayi's Electric Bill (13 Points) is: N" +
+    "Ajayi's Electric Bill (12 Points) is: N" +
     Math.floor(amountPerPoint * 12 + 1).toLocaleString();
   Alabi.textContent =
     "Alabi's Electric Bill (6 Points) is: N" +
