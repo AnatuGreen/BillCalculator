@@ -1,13 +1,13 @@
 const d = new Date();
 document.getElementById("date").innerHTML = d;
 
-let Ajayi = document.getElementById("Ajayi"); // 13 pnts
+let Ajayi = document.getElementById("Ajayi"); // 12 pnts - changed on 13/09/2022
 let Alabi = document.getElementById("Alabi"); //6 pnts
 let Alex = document.getElementById("Alex"); // 7 pnts
-let Anatu = document.getElementById("Anatu"); // 5 pnts
+let Anatu = document.getElementById("Anatu"); // 6 pnts changed on 13/09/2022
 let Andrew = document.getElementById("Andrew"); // 10
 let Gbenga = document.getElementById("Gbenga"); //7
-let Sola = document.getElementById("Sola"); //5
+let Sola = document.getElementById("Sola"); //6 changed on 13/09/2022
 let Joshua = document.getElementById("Joshua"); // 9
 let Lawrence = document.getElementById("Lawrence"); // 7
 let Ogundairo = document.getElementById("Ogundairo"); //10
@@ -33,7 +33,7 @@ function total() {
 
   Ajayi.textContent =
     "Ajayi's Electric Bill (13 Points) is: N" +
-    Math.floor(amountPerPoint * 13 + 1).toLocaleString();
+    Math.floor(amountPerPoint * 12 + 1).toLocaleString();
   Alabi.textContent =
     "Alabi's Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
@@ -41,8 +41,8 @@ function total() {
     "Alex's Electric Bill (7 Points) is: N" +
     Math.floor(amountPerPoint * 7 + 1).toLocaleString();
   Anatu.textContent =
-    "Anatu's Electric Bill (5 Points) is: N" +
-    Math.floor(amountPerPoint * 5 + 1).toLocaleString();
+    "Anatu's Electric Bill (6 Points) is: N" +
+    Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Andrew.textContent =
     "Andrew's Electric Bill (10 Points) is: N" +
     Math.floor(amountPerPoint * 10 + 1).toLocaleString();
@@ -51,7 +51,7 @@ function total() {
     Math.floor(amountPerPoint * 7 + 1).toLocaleString();
   Sola.textContent =
     "Sola's Electric Bill (5 Points) is: N" +
-    Math.floor(amountPerPoint * 5 + 1).toLocaleString();
+    Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Joshua.textContent =
     "Joshua's Electric Bill (9 Points) is: N" +
     Math.floor(amountPerPoint * 9 + 1).toLocaleString();
