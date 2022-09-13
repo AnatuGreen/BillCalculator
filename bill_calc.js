@@ -36,8 +36,7 @@ function total() {
 
   totalBillDisplayArea.textContent =
     `This bill for ${currentMonth}, ${currentYear} is: ${totalBills} \n
-    This is the bill electricity used in ${previousMonth}
-    `;
+    This is the bill electricity used in ${previousMonth}`;
   if (totalBills > 0) {
     amountPerPoint = totalBills / totalPoints;
   }
