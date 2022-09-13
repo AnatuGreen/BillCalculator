@@ -35,8 +35,8 @@ function total() {
   let previousMonth = months[(currentDate.getMonth())-1]
 
   totalBillDisplayArea.textContent =
-    `This bill for ${currentMonth}, ${currentYear} is: ${totalBills} \n
-    This is the bill electricity used in ${previousMonth}`;
+    `This bill for ${currentMonth}, ${currentYear} is: ${totalBills}`
+  document.getElementById("currentMonth").textContent = `This is the bill electricity used in ${previousMonth}`;
   if (totalBills > 0) {
     amountPerPoint = totalBills / totalPoints;
   }
