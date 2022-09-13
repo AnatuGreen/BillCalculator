@@ -34,7 +34,7 @@ function total() {
  currentYear = currentYear.getFullYear()
 
   totalBillDisplayArea.textContent =
-    `This bill for ${currentMonth,currentYear}, is: ${totalBills}`;
+    `This bill for ${currentMonth}, ${currentYear}, is: ${totalBills}`;
   if (totalBills > 0) {
     amountPerPoint = totalBills / totalPoints;
   }
