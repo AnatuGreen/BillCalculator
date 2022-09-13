@@ -58,7 +58,7 @@ function total() {
     "Gbenga's Electric Bill (7 Points) is: N" +
     Math.floor(amountPerPoint * 7 + 1).toLocaleString();
   Sola.textContent =
-    "Sola's Electric Bill (5 Points) is: N" +
+    "Sola's Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Joshua.textContent =
     "Joshua's Electric Bill (9 Points) is: N" +
@@ -83,8 +83,8 @@ how.addEventListener("click", function () {
   howItIs.innerHTML = `<p>Hello. Thanks for asking. To calculate your personal bill </br>
 Step 1:  Simply divide the total amount for bill as seen above by the total points of everyone.</br>
 Step 2: Then use the result of step 1 to multiply your own points. </br>
-Example: If the total bill for January is 20,500 and the total points for everyone is 150 Points </br>
- 20500/150 = 133.666. If your point is 10. 133.666 x 10 = 1,3666
+Example: If the total bill for January is 20,500 and the total points for everyone is 90 Points </br>
+ 20500/90 = 229 approximately. If your point is 10. 229 x 10 = 2,290 Naira.
   </p>`;
   hideHowItIs.style.display = "block";
 });
