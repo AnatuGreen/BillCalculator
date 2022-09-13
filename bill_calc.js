@@ -72,7 +72,7 @@ function total() {
     "Ogundairo's Electric Bill (10 Points) is: N" +
     Math.floor(amountPerPoint * 10 + 1).toLocaleString();
   Taiwo.textContent =
-    "Taiwo's Electric Bill (6 Points) is: N" +
+    "Adams' Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Victor.textContent =
     "Victor's Electric Bill (5 Points) is: N" +
