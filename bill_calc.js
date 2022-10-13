@@ -58,7 +58,7 @@ function total() {
     Math.floor(amountPerPoint * 10 + 1).toLocaleString();
   Tosin.textContent =
     "Tosin's Electric Bill (7 Points) is: N" +
-    Tosin.floor(amountPerPoint * 5 + 1).toLocaleString();
+    Math.floor(amountPerPoint * 5 + 1).toLocaleString();
   Sola.textContent =
     "Sola's Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
