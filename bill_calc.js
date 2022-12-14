@@ -38,22 +38,22 @@ function total() {
     "Alabi's Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Alex.textContent =
-    "Alex's Electric Bill (7 Points) is: N" +
+    "Jacob's Electric Bill (7 Points) is: N" +
     Math.floor(amountPerPoint * 7 + 1).toLocaleString();
   Anatu.textContent =
-    "Anatu's Electric Bill (6 Points) is: N" +
+    "Anaturuchi's Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Andrew.textContent =
     "Andrew's Electric Bill (10 Points) is: N" +
     Math.floor(amountPerPoint * 10 + 1).toLocaleString();
   Gbenga.textContent =
-    "Gbenga's Electric Bill (7 Points) is: N" +
+    "Tosin's Electric Bill (7 Points) is: N" +
     Math.floor(amountPerPoint * 7 + 1).toLocaleString();
   Sola.textContent =
     "Sola's Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Joshua.textContent =
-    "Joshua's Electric Bill (9 Points) is: N" +
+    "Abiodun's Electric Bill (9 Points) is: N" +
     Math.floor(amountPerPoint * 9 + 1).toLocaleString();
   Lawrence.textContent =
     "Lawrence's Electric Bill (7 Points) is: N" +
@@ -62,7 +62,7 @@ function total() {
     "Ogundairo's Electric Bill (10 Points) is: N" +
     Math.floor(amountPerPoint * 10 + 1).toLocaleString();
   Taiwo.textContent =
-    "Taiwo's Electric Bill (6 Points) is: N" +
+    "Adams' Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Victor.textContent =
     "Victor's Electric Bill (5 Points) is: N" +
