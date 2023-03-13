@@ -19,7 +19,7 @@ let howItIs = document.getElementById('howitis');
 let hideHowItIs = document.getElementById('hideHowItIs');
 hideHowItIs.style.display = 'none';
 function total() {
-  let totalPoints = 89;
+  let totalPoints = 90;
   let billInput1 = document.getElementById('bill1').value || 0;
   let billInput2 = document.getElementById('bill2').value || 0;
   let totalBillDisplayArea = document.getElementById('total');
@@ -83,8 +83,8 @@ function total() {
     "Lawrence's Electric Bill (7 Points) is: N" +
     Math.floor(amountPerPoint * 7 + 1).toLocaleString();
   Ogundairo.textContent =
-    "Ogundairo's Electric Bill (10 Points) is: N" +
-    Math.floor(amountPerPoint * 10 + 1).toLocaleString();
+    "Ogundairo's Electric Bill (9 Points) is: N" +
+    Math.floor(amountPerPoint * 9 + 1).toLocaleString();
   Adams.textContent =
     "Adams' Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
