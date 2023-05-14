@@ -1,7 +1,7 @@
 const d = new Date();
 document.getElementById('date').innerHTML = d;
 
-let Ajayi = document.getElementById('Ajayi'); // 12 pnts - changed on 13/09/2022
+let Ajayi = document.getElementById('Ajayi'); // 11 pnts - changed on 14/05/2023
 let Alabi = document.getElementById('Alabi'); //6 pnts
 let Elisha = document.getElementById('Elisha'); // 7 pnts
 let Anatu = document.getElementById('Anatu'); // 6 pnts changed on 13/09/2022
@@ -19,7 +19,7 @@ let howItIs = document.getElementById('howitis');
 let hideHowItIs = document.getElementById('hideHowItIs');
 hideHowItIs.style.display = 'none';
 function total() {
-  let totalPoints = 88;
+  let totalPoints = 89;
   let billInput1 = document.getElementById('bill1').value || 0;
   let billInput2 = document.getElementById('bill2').value || 0;
   let totalBillDisplayArea = document.getElementById('total');
@@ -56,8 +56,8 @@ function total() {
   }
 
   Ajayi.textContent =
-    "Ajayi's Electric Bill (12 Points) is: N" +
-    Math.floor(amountPerPoint * 12 + 1).toLocaleString();
+    "Ajayi's Electric Bill (11 Points) is: N" +
+    Math.floor(amountPerPoint * 11 + 1).toLocaleString();
   Alabi.textContent =
     "Alabi's Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
