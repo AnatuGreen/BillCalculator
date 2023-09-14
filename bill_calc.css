@@ -1,13 +1,16 @@
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
-  background-color: aquamarine;
+  background-color: skyblue;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
 }
 
 button {
   height: 40px;
-  width: 150px;
+  width: 250px;
   margin-top: 10px;
   border-radius: 15px;
   background-color: black;
@@ -18,6 +21,7 @@ button {
 input {
   height: 40px;
   border-radius: 5px;
+  width: 250px;
 }
 
 #date {
@@ -34,4 +38,10 @@ li {
 footer p {
   font-size: 15px;
   text-decoration: overline;
+}
+
+.container-main{
+  background-color: blue;
+  color: white;
+  padding: 20px
 }
