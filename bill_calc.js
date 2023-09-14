@@ -1,7 +1,7 @@
 const d = new Date();
 document.getElementById('date').innerHTML = d;
 
-let Ajayi = document.getElementById('Ajayi'); // 11 pnts - changed on 14/05/2023
+let Ajayi = document.getElementById('Ajayi'); // 6 pnts - changed on 14/09/2023 as he no longer occupies downstairs. That will added from October
 let Alabi = document.getElementById('Alabi'); //6 pnts
 let Elisha = document.getElementById('Elisha'); // 7 pnts
 let Anatu = document.getElementById('Anatu'); // 6 pnts changed on 13/09/2022
@@ -19,7 +19,7 @@ let howItIs = document.getElementById('howitis');
 let hideHowItIs = document.getElementById('hideHowItIs');
 hideHowItIs.style.display = 'none';
 function total() {
-  let totalPoints = 87;
+  let totalPoints = 84;
   let billInput1 = document.getElementById('bill1').value || 0;
   let billInput2 = document.getElementById('bill2').value || 0;
   let totalBillDisplayArea = document.getElementById('total');
@@ -56,37 +56,37 @@ function total() {
   }
 
   Ajayi.textContent =
-    "Ajayi's Electric Bill (11 Points) is: N" +
-    Math.floor(amountPerPoint * 11 + 1).toLocaleString();
+    "Ajayi's Electric Bill (6 Points) is: N" +
+    Math.floor(amountPerPoint * 6 + 1).toLocaleString();
+    Abiodun.textContent =
+    "Abiodun's Electric Bill (9 Points) is: N" +
+    Math.floor(amountPerPoint * 9 + 1).toLocaleString();
+    Adams.textContent =
+    "Adams' Electric Bill (6 Points) is: N" +
+    Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Alabi.textContent =
     "Alabi's Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
-  Elisha.textContent =
-    "Elisha's Electric Bill (7 Points) is: N" +
-    Math.floor(amountPerPoint * 7 + 1).toLocaleString();
-  Anatu.textContent =
+    Anatu.textContent =
     "Anatu's Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Andrew.textContent =
     "Andrew's Electric Bill (10 Points) is: N" +
     Math.floor(amountPerPoint * 10 + 1).toLocaleString();
-  Tosin.textContent =
-    "Tosin's Electric Bill (5 Points) is: N" +
-    Math.floor(amountPerPoint * 5 + 1).toLocaleString();
-  Sola.textContent =
-    "Sola's Electric Bill (6 Points) is: N" +
-    Math.floor(amountPerPoint * 6 + 1).toLocaleString();
-  Abiodun.textContent =
-    "Abiodun's Electric Bill (9 Points) is: N" +
-    Math.floor(amountPerPoint * 9 + 1).toLocaleString();
-  Lawrence.textContent =
+  Elisha.textContent =
+    "Elisha's Electric Bill (7 Points) is: N" +
+    Math.floor(amountPerPoint * 7 + 1).toLocaleString();
+    Lawrence.textContent =
     "Lawrence's Electric Bill (7 Points) is: N" +
     Math.floor(amountPerPoint * 7 + 1).toLocaleString();
-  Ogundairo.textContent =
+    Ogundairo.textContent =
     "Ogundairo's Electric Bill (9 Points) is: N" +
     Math.floor(amountPerPoint * 9 + 1).toLocaleString();
-  Adams.textContent =
-    "Adams' Electric Bill (6 Points) is: N" +
+  Tosin.textContent =
+    "Tosin's Electric Bill (7 Points) is: N" +
+    Math.floor(amountPerPoint * 7 + 1).toLocaleString();
+  Sola.textContent =
+    "Sola's Electric Bill (6 Points) is: N" +
     Math.floor(amountPerPoint * 6 + 1).toLocaleString();
   Victor.textContent =
     "Victor's Electric Bill (5 Points) is: N" +
