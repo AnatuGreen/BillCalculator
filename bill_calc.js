@@ -1,26 +1,26 @@
 const d = new Date();
 document.getElementById('date').innerHTML = d;
 
-let Ajayi = document.getElementById('Ajayi'); // 6 pnts - changed on 14/09/2023 as he no longer occupies downstairs. That will added from October
-let Alabi = document.getElementById('Alabi'); //6 pnts
-let Elisha = document.getElementById('Elisha'); // 7 pnts
-let Anatu = document.getElementById('Anatu'); // 6 pnts changed on 13/09/2022
-let Andrew = document.getElementById('Andrew'); // 10
-let Tosin = document.getElementById('Tosin'); //5
-let Sola = document.getElementById('Sola'); //6 changed on 13/09/2022
-let Abiodun = document.getElementById('Abiodun'); // 9
-let Lawrence = document.getElementById('Lawrence'); // 7
-let Ogundairo = document.getElementById('Ogundairo'); //10
-let Adams = document.getElementById('Adams'); //6
-let Victor = document.getElementById('Victor'); // 5
-let Joel = document.getElementById('Joel'); // 7
+let Ajayi = document.getElementById('Ajayi'); 
+let Alabi = document.getElementById('Alabi'); 
+let Elisha = document.getElementById('Elisha'); 
+let Anatu = document.getElementById('Anatu'); 
+let Andrew = document.getElementById('Andrew'); 
+let Tosin = document.getElementById('Tosin'); 
+let Sola = document.getElementById('Sola'); 
+let Abiodun = document.getElementById('Abiodun'); 
+let Lawrence = document.getElementById('Lawrence'); 
+let Ogundairo = document.getElementById('Ogundairo'); 
+let Adams = document.getElementById('Adams'); 
+let Victor = document.getElementById('Victor');
+let Joel = document.getElementById('Joel'); 
 
 let how = document.getElementById('how');
 let howItIs = document.getElementById('howitis');
 let hideHowItIs = document.getElementById('hideHowItIs');
 hideHowItIs.style.display = 'none';
 function total() {
-  let totalPoints = 90;
+  let totalPoints = 91;
   let billInput1 = document.getElementById('bill1').value || 0;
   let billInput2 = document.getElementById('bill2').value || 0;
   let totalBillDisplayArea = document.getElementById('total');
@@ -58,7 +58,7 @@ function total() {
 
   Ajayi.textContent =
     "Ajayi's Electric Bill (6 Points) is: N" +
-    Math.floor(amountPerPoint * 6).toLocaleString();
+    Math.floor(amountPerPoint * 6).toLocaleString(); //// 6 pnts - changed on 14/09/2023 as he no longer occupies downstairs. That will added from October
     Abiodun.textContent =
     "Abiodun's Electric Bill (9 Points) is: N" +
     Math.floor(amountPerPoint * 9).toLocaleString();
@@ -70,7 +70,7 @@ function total() {
     Math.floor(amountPerPoint * 6).toLocaleString();
     Anatu.textContent =
     "Anatu's Electric Bill (6 Points) is: N" +
-    Math.floor(amountPerPoint * 6).toLocaleString();
+    Math.floor(amountPerPoint * 6).toLocaleString(); //6 pnts changed on 13/09/2022
   Andrew.textContent =
     "Andrew's Electric Bill (10 Points) is: N" +
     Math.floor(amountPerPoint * 10).toLocaleString();
@@ -91,7 +91,7 @@ function total() {
     Math.floor(amountPerPoint * 7).toLocaleString();
   Sola.textContent =
     "Sola's Electric Bill (6 Points) is: N" +
-    Math.floor(amountPerPoint * 6).toLocaleString();
+    Math.floor(amountPerPoint * 6).toLocaleString(); //6 changed on 13/09/2022
   Victor.textContent =
     "Victor's Electric Bill (5 Points) is: N" +
     Math.floor(amountPerPoint * 5).toLocaleString();
