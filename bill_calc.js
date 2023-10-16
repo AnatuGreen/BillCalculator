@@ -20,7 +20,7 @@ let howItIs = document.getElementById('howitis');
 let hideHowItIs = document.getElementById('hideHowItIs');
 hideHowItIs.style.display = 'none';
 function total() {
-  let totalPoints = 84;
+  let totalPoints = 90;
   let billInput1 = document.getElementById('bill1').value || 0;
   let billInput2 = document.getElementById('bill2').value || 0;
   let totalBillDisplayArea = document.getElementById('total');
