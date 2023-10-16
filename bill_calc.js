@@ -58,43 +58,43 @@ function total() {
 
   Ajayi.textContent =
     "Ajayi's Electric Bill (6 Points) is: N" +
-    Math.floor(amountPerPoint * 6).toLocaleString(); //// 6 pnts - changed on 14/09/2023 as he no longer occupies downstairs. That will added from October
+    Math.floor(amountPerPoint * 6 +1).toLocaleString(); //// 6 pnts - changed on 14/09/2023 as he no longer occupies downstairs. That will added from October
     Abiodun.textContent =
     "Abiodun's Electric Bill (9 Points) is: N" +
-    Math.floor(amountPerPoint * 9).toLocaleString();
+    Math.floor(amountPerPoint * 9 +1).toLocaleString();
     Adams.textContent =
     "Adams' Electric Bill (6 Points) is: N" +
-    Math.floor(amountPerPoint * 6).toLocaleString();
+    Math.floor(amountPerPoint * 6 +1).toLocaleString();
   Alabi.textContent =
     "Alabi's Electric Bill (6 Points) is: N" +
-    Math.floor(amountPerPoint * 6).toLocaleString();
+    Math.floor(amountPerPoint * 6 +1).toLocaleString();
     Anatu.textContent =
     "Anatu's Electric Bill (6 Points) is: N" +
-    Math.floor(amountPerPoint * 6).toLocaleString(); //6 pnts changed on 13/09/2022
+    Math.floor(amountPerPoint * 6 +1).toLocaleString(); //6 pnts changed on 13/09/2022
   Andrew.textContent =
     "Andrew's Electric Bill (10 Points) is: N" +
-    Math.floor(amountPerPoint * 10).toLocaleString();
+    Math.floor(amountPerPoint * 10 +1).toLocaleString();
   Elisha.textContent =
     "Elisha's Electric Bill (7 Points) is: N" +
-    Math.floor(amountPerPoint * 7).toLocaleString();
+    Math.floor(amountPerPoint * 7 +1).toLocaleString();
   Joel.textContent =
     "Joel's Electric Bill (7 Points) is: N" +
-    Math.floor(amountPerPoint * 7).toLocaleString();
+    Math.floor(amountPerPoint * 7 +1).toLocaleString();
     Lawrence.textContent =
     "Lawrence's Electric Bill (7 Points) is: N" +
-    Math.floor(amountPerPoint * 7).toLocaleString();
+    Math.floor(amountPerPoint * 7 +1).toLocaleString();
     Ogundairo.textContent =
     "Ogundairo's Electric Bill (9 Points) is: N" +
-    Math.floor(amountPerPoint * 9).toLocaleString();
+    Math.floor(amountPerPoint * 9 +1).toLocaleString();
   Tosin.textContent =
     "Tosin's Electric Bill (7 Points) is: N" +
-    Math.floor(amountPerPoint * 7).toLocaleString();
+    Math.floor(amountPerPoint * 7 +1).toLocaleString();
   Sola.textContent =
     "Sola's Electric Bill (6 Points) is: N" +
-    Math.floor(amountPerPoint * 6).toLocaleString(); //6 changed on 13/09/2022
+    Math.floor(amountPerPoint * 6 +1).toLocaleString(); //6 changed on 13/09/2022
   Victor.textContent =
     "Victor's Electric Bill (5 Points) is: N" +
-    Math.floor(amountPerPoint * 5).toLocaleString();
+    Math.floor(amountPerPoint * 5 +1).toLocaleString();
 
   //// Math.floor( .... + 1) to round off the amount without decimals and add 1 to avoid financial loss on our side. toLocalString() adds the comma to make it a readable thousand
 }
