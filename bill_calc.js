@@ -13,6 +13,7 @@ let Lawrence = document.getElementById('Lawrence'); // 7
 let Ogundairo = document.getElementById('Ogundairo'); //10
 let Adams = document.getElementById('Adams'); //6
 let Victor = document.getElementById('Victor'); // 5
+let Joel = document.getElementById('Joel'); // 7
 
 let how = document.getElementById('how');
 let howItIs = document.getElementById('howitis');
@@ -75,6 +76,9 @@ function total() {
     Math.floor(amountPerPoint * 10 + 1).toLocaleString();
   Elisha.textContent =
     "Elisha's Electric Bill (7 Points) is: N" +
+    Math.floor(amountPerPoint * 7 + 1).toLocaleString();
+  Joel.textContent =
+    "Joel's Electric Bill (7 Points) is: N" +
     Math.floor(amountPerPoint * 7 + 1).toLocaleString();
     Lawrence.textContent =
     "Lawrence's Electric Bill (7 Points) is: N" +
